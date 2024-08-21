@@ -12,5 +12,5 @@ relocations:
   - { offsetInCU: 0x380, offset: 0x380, size: 0x8, addend: 0x0, symName: _busca_double, symObjAddr: 0xC48, symBinAddr: 0x100003A18, symSize: 0x1A4 }
   - { offsetInCU: 0x412, offset: 0x412, size: 0x8, addend: 0x0, symName: _linear_probing, symObjAddr: 0xDEC, symBinAddr: 0x100003BBC, symSize: 0xC0 }
   - { offsetInCU: 0x472, offset: 0x472, size: 0x8, addend: 0x0, symName: _quadratic_probing, symObjAddr: 0xEAC, symBinAddr: 0x100003C7C, symSize: 0xE0 }
-  - { offsetInCU: 0x4D2, offset: 0x4D2, size: 0x8, addend: 0x0, symName: _double_hashing, symObjAddr: 0xF8C, symBinAddr: 0x100003D5C, symSize: 0xEC }
+  - { offsetInCU: 0x4D7, offset: 0x4D7, size: 0x8, addend: 0x0, symName: _double_hashing, symObjAddr: 0xF8C, symBinAddr: 0x100003D5C, symSize: 0xEC }
 ...
