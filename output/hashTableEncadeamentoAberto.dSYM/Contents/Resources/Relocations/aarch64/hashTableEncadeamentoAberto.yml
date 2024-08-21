@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/diogobellini/Desktop/UFSCar/AED2/Projetos/hashTables/output/hashTableEncadeamentoAberto'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002DD0, symSize: 0x59C }
+  - { offsetInCU: 0x54, offset: 0x54, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002DD0, symSize: 0x59C }
+  - { offsetInCU: 0x1BE, offset: 0x1BE, size: 0x8, addend: 0x0, symName: _inicializa_tabela, symObjAddr: 0x59C, symBinAddr: 0x10000336C, symSize: 0x40 }
+  - { offsetInCU: 0x1E2, offset: 0x1E2, size: 0x8, addend: 0x0, symName: _insere_tabela, symObjAddr: 0x5DC, symBinAddr: 0x1000033AC, symSize: 0x174 }
+  - { offsetInCU: 0x222, offset: 0x222, size: 0x8, addend: 0x0, symName: _jaTem, symObjAddr: 0x750, symBinAddr: 0x100003520, symSize: 0x1D0 }
+  - { offsetInCU: 0x2BA, offset: 0x2BA, size: 0x8, addend: 0x0, symName: _busca_linear, symObjAddr: 0x920, symBinAddr: 0x1000036F0, symSize: 0x168 }
+  - { offsetInCU: 0x30C, offset: 0x30C, size: 0x8, addend: 0x0, symName: _busca_quadratic, symObjAddr: 0xA88, symBinAddr: 0x100003858, symSize: 0x1C0 }
+  - { offsetInCU: 0x380, offset: 0x380, size: 0x8, addend: 0x0, symName: _busca_double, symObjAddr: 0xC48, symBinAddr: 0x100003A18, symSize: 0x1A4 }
+  - { offsetInCU: 0x412, offset: 0x412, size: 0x8, addend: 0x0, symName: _linear_probing, symObjAddr: 0xDEC, symBinAddr: 0x100003BBC, symSize: 0xC0 }
+  - { offsetInCU: 0x472, offset: 0x472, size: 0x8, addend: 0x0, symName: _quadratic_probing, symObjAddr: 0xEAC, symBinAddr: 0x100003C7C, symSize: 0xE0 }
+  - { offsetInCU: 0x4D2, offset: 0x4D2, size: 0x8, addend: 0x0, symName: _double_hashing, symObjAddr: 0xF8C, symBinAddr: 0x100003D5C, symSize: 0xEC }
+...

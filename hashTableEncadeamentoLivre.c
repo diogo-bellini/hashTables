@@ -122,8 +122,8 @@ void insere_tabela(hash_table* t,int x){
     {
         insere_fila(&(t->vetor[funcao_hash(x)]), x);
     }
-    else
-        printf("O valor já %d está na tabela!!!\n", x);
+    //else
+        //printf("O valor já %d está na tabela!!!\n", x);
 }
 
 //Método da divisão
@@ -149,7 +149,7 @@ void imprimir_valores_tabela(hash_table* t){
                 aux = aux->prox;
             }
             printf("\nTamanho da fila: %d\n", qtd);
-            printf("Média da fila: %d\n", soma/qtd);
+            printf("Média da fila: %.2f\n", (float)soma/qtd);
             printf("\n");
         }
     }

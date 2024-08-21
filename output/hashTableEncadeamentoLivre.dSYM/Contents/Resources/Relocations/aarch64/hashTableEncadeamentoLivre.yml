@@ -2,14 +2,14 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/diogobellini/Desktop/UFSCar/AED2/Projetos/hashTables/output/hashTableEncadeamentoLivre'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000036E8, symSize: 0x17C }
-  - { offsetInCU: 0x8A, offset: 0x8A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000036E8, symSize: 0x17C }
-  - { offsetInCU: 0x122, offset: 0x122, size: 0x8, addend: 0x0, symName: _inicializa_tabela, symObjAddr: 0x17C, symBinAddr: 0x100003864, symSize: 0xBC }
-  - { offsetInCU: 0x162, offset: 0x162, size: 0x8, addend: 0x0, symName: _insere_tabela, symObjAddr: 0x238, symBinAddr: 0x100003920, symSize: 0x84 }
-  - { offsetInCU: 0x194, offset: 0x194, size: 0x8, addend: 0x0, symName: _imprimir_valores_tabela, symObjAddr: 0x2BC, symBinAddr: 0x1000039A4, symSize: 0x158 }
-  - { offsetInCU: 0x21A, offset: 0x21A, size: 0x8, addend: 0x0, symName: _jaTem, symObjAddr: 0x414, symBinAddr: 0x100003AFC, symSize: 0x9C }
-  - { offsetInCU: 0x26C, offset: 0x26C, size: 0x8, addend: 0x0, symName: _busca_tabela, symObjAddr: 0x4B0, symBinAddr: 0x100003B98, symSize: 0x110 }
-  - { offsetInCU: 0x2C8, offset: 0x2C8, size: 0x8, addend: 0x0, symName: _liberar_memoria, symObjAddr: 0x5C0, symBinAddr: 0x100003CA8, symSize: 0xAC }
-  - { offsetInCU: 0x340, offset: 0x340, size: 0x8, addend: 0x0, symName: _insere_fila, symObjAddr: 0x66C, symBinAddr: 0x100003D54, symSize: 0xF0 }
-  - { offsetInCU: 0x380, offset: 0x380, size: 0x8, addend: 0x0, symName: _funcao_hash, symObjAddr: 0x75C, symBinAddr: 0x100003E44, symSize: 0x24 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003720, symSize: 0x17C }
+  - { offsetInCU: 0x91, offset: 0x91, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003720, symSize: 0x17C }
+  - { offsetInCU: 0x129, offset: 0x129, size: 0x8, addend: 0x0, symName: _inicializa_tabela, symObjAddr: 0x17C, symBinAddr: 0x10000389C, symSize: 0xBC }
+  - { offsetInCU: 0x169, offset: 0x169, size: 0x8, addend: 0x0, symName: _insere_tabela, symObjAddr: 0x238, symBinAddr: 0x100003958, symSize: 0x64 }
+  - { offsetInCU: 0x19B, offset: 0x19B, size: 0x8, addend: 0x0, symName: _imprimir_valores_tabela, symObjAddr: 0x29C, symBinAddr: 0x1000039BC, symSize: 0x160 }
+  - { offsetInCU: 0x221, offset: 0x221, size: 0x8, addend: 0x0, symName: _jaTem, symObjAddr: 0x3FC, symBinAddr: 0x100003B1C, symSize: 0x9C }
+  - { offsetInCU: 0x273, offset: 0x273, size: 0x8, addend: 0x0, symName: _busca_tabela, symObjAddr: 0x498, symBinAddr: 0x100003BB8, symSize: 0x110 }
+  - { offsetInCU: 0x2CF, offset: 0x2CF, size: 0x8, addend: 0x0, symName: _liberar_memoria, symObjAddr: 0x5A8, symBinAddr: 0x100003CC8, symSize: 0xAC }
+  - { offsetInCU: 0x347, offset: 0x347, size: 0x8, addend: 0x0, symName: _insere_fila, symObjAddr: 0x654, symBinAddr: 0x100003D74, symSize: 0xF0 }
+  - { offsetInCU: 0x387, offset: 0x387, size: 0x8, addend: 0x0, symName: _funcao_hash, symObjAddr: 0x744, symBinAddr: 0x100003E64, symSize: 0x24 }
 ...
